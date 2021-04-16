@@ -4,3 +4,19 @@ body {
   margin-right: 10px;
   height: 1100px;
 }
+
+#mainhead {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 11px 7px 1.75px #0000006b;
+}
+
+.searchit {
+  background: darkorchid;
+  padding: 5px 5px 5px 5px;
+  position: sticky;
+  top: 0;
+}
