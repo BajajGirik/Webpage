@@ -29,3 +29,11 @@ body {
   text-shadow: 11px 7px 1.75px #0000006b;
   position: relative;
 }
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 100px;
+  top: 27px;
+}
