@@ -37,3 +37,8 @@ nav ul {
   left: 100px;
   top: 27px;
 }
+
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+}
