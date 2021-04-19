@@ -42,3 +42,14 @@ nav ul li {
   display: inline;
   padding-left: 20px;
 }
+
+nav ul li a {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: none;
+  color: whitesmoke;
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+}
