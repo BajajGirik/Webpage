@@ -53,3 +53,9 @@ nav ul li a {
   transition-timing-function: ease-in-out;
   transition-duration: 250ms;
 }
+
+a:hover {
+  color: tomato;
+  font-weight: 900;
+  text-decoration: underline;
+}
