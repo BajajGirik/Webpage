@@ -69,3 +69,17 @@ a:hover {
   top: 37px;
   right: 90px;
 }
+
+.inpu {
+  background: inherit;
+  color: whitesmoke;
+  margin-left: 3px;
+  padding: 6px;
+  border-radius: 7px;
+  border: 1.75px solid black;
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+  position: absolute;
+  top: 37px;
+  right: 15px;
+}
