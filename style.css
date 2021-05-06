@@ -1,17 +1,29 @@
+@keyframes Grow {
+  0% {
+    font-size: 0px;
+  }
+
+  100% {
+    font-size: 45px;
+  }
+}
+
 body {
   background: skyblue;
   margin-left: 8px;
   margin-right: 10px;
-  height: 1100px;
 }
 
 #mainhead {
   color: aliceblue;
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-weight: 900;
-  font-size: 40px;
-  text-align: center;
   text-shadow: 11px 7px 1.75px #0000006b;
+  animation-name: Grow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 
 .searchit,
